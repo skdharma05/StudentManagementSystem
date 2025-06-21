@@ -6,7 +6,7 @@ Ideal for beginners looking to get hands-on with backend technologies like Hiber
 
 ---
 
- ✅ Features
+### ✅ Features
 
 * ➕ Add a new student
 * 🔍 Search student by roll number
@@ -18,7 +18,7 @@ Ideal for beginners looking to get hands-on with backend technologies like Hiber
 
 ---
 
- 🧰 Tech Stack
+### 🧰 Tech Stack
 
 | Tech               | Description                     |
 | ------------------ | ------------------------------- |
@@ -26,17 +26,18 @@ Ideal for beginners looking to get hands-on with backend technologies like Hiber
 | Hibernate ORM      | Object Relational Mapping       |
 | MySQL              | Relational database             |
 | Maven              | Build and dependency management |
-| IntelliJ           | IDEs used for development       |
+| IntelliJ / Eclipse | IDEs used for development       |
 
 ---
 
- 🗂 Project Structure
+### 🗂 Project Structure
 
 ```
 student-management/
 ├── com.student/
 │   ├── Student.java          # Entity class
 │   ├── StudentDAO.java       # DAO for CRUD operations
+│   ├── HibernateUtil.java    # Hibernate session factory utility
 │   └── Main.java             # Main app with user menu
 ├── hibernate.cfg.xml         # Hibernate configuration
 └── pom.xml                   # Maven dependencies
@@ -44,7 +45,7 @@ student-management/
 
 ---
 
-🛠 How It Works
+### 🛠 How It Works
 
 1. The user runs the console application.
 2. A menu appears with options to manage students.
@@ -53,7 +54,7 @@ student-management/
 
 ---
 
-🔧 Setup Instructions
+### 🔧 Setup Instructions
 
 1. Clone this repo:
 
@@ -83,7 +84,8 @@ student-management/
 * Transaction handling in Hibernate
 
 ---
-🤛️ Author
+
+### 🤛️ Author
 
 **Dharma Selvaraj**
 Aspiring Full-Stack / Backend Developer 💻
