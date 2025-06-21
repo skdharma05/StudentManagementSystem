@@ -14,7 +14,7 @@ public class Main {
             System.out.println("1.Add Student");
             System.out.println("2.View All Students");
             System.out.println("3.Search Student by Roll Number ");
-            System.out.println("4.Update Student course");
+            System.out.println("4.Update Student Details");
             System.out.println("5.Delete Student");
             System.out.println("6.Exit");
             System.out.print("Your choice : ");
@@ -29,7 +29,9 @@ public class Main {
                     String course = in.next();
                     System.out.print("Enter the Email ID : ");
                     String eMail =in.next();
-                    Student newStudent = new Student(name, course,eMail);
+                    System.out.print("Enter the Phone No : ");
+                    long pNo = in.nextLong();
+                    Student newStudent = new Student(name, course,eMail, pNo);
                     dao.saveStudent(newStudent);
                     System.out.println("Student adds successfully..!");
                     break;
@@ -60,8 +62,14 @@ public class Main {
                         System.out.print("Enter the New Course : ");
                         String newCourse = in.next();
                         toUpdate.setCourse(newCourse);
-                        dao.UpdateStudent(toUpdate);
-                        System.out.println("Student Course Updated..!");
+                        System.out.print("Enter The Email Id : ");
+                        String newEmail = in.next();
+                        toUpdate.seteMail(newEmail);
+                        System.out.print("Enter the Phone No : ");
+                        long newPno = in.nextLong();
+                        toUpdate.setpNo(newPno);
+                        dao.updateStudent(toUpdate);
+                        System.out.println("Student Details Updated..!");
                     }else {
                         System.out.println("Student Not Found..");
                     }
