@@ -26,7 +26,7 @@ Ideal for beginners looking to get hands-on with backend technologies like Hiber
 | Hibernate ORM      | Object Relational Mapping       |
 | MySQL              | Relational database             |
 | Maven              | Build and dependency management |
-| IntelliJ / Eclipse | IDEs used for development       |
+| IntelliJ           | IDEs used for development       |
 
 ---
 
@@ -88,9 +88,9 @@ student-management/
 ### 🤛️ Author
 
 **Dharma Selvaraj**
-Aspiring Full-Stack / Backend Developer 💻
-
+Aspiring Full-Stack / Backend Developer 
+*Java | Hibernate | Spring Boot | MySQL*
+Built as part of my Java backend learning journey 💻
 
 [📄 View License](LICENSE)
 
-*Java | Hibernate | Spring Boot | MySQL*
