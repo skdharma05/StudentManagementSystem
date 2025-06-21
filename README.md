@@ -88,9 +88,15 @@ student-management/
 ### 🤛️ Author
 
 **Dharma Selvaraj**
-Aspiring Full-Stack / Backend Developer 
-*Java | Hibernate | Spring Boot | MySQL*
+Aspiring Full-Stack / Backend Developer.
+
 Built as part of my Java backend learning journey 💻
+
+*Java | Hibernate | Spring Boot | MySQL*
+
+---
+
+📜 **License**
 
 [📄 View License](LICENSE)
 
