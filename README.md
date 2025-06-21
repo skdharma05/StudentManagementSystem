@@ -89,4 +89,8 @@ student-management/
 
 **Dharma Selvaraj**
 Aspiring Full-Stack / Backend Developer 💻
+
+
+[📄 View License](LICENSE)
+
 *Java | Hibernate | Spring Boot | MySQL*
