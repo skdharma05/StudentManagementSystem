@@ -25,9 +25,11 @@ public class Main {
                 case 1 :
                     System.out.print("Enter the Name: ");
                     String name = in.next();
-                    System.out.print(" Enter  the Course: ");
+                    System.out.print("Enter  the Course: ");
                     String course = in.next();
-                    Student newStudent = new Student(name, course);
+                    System.out.print("Enter the Email ID : ");
+                    String eMail =in.next();
+                    Student newStudent = new Student(name, course,eMail);
                     dao.saveStudent(newStudent);
                     System.out.println("Student adds successfully..!");
                     break;

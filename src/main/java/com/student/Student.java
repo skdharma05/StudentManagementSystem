@@ -14,10 +14,11 @@ public class Student {
     private String name;
     @Column(name = "Course")
     private String course;
+    private String eMail;
     public Student(){}
 
-    public Student(String name, String course){
-
+    public Student(String name, String course,String eMail){
+        this.eMail=eMail;
         this.name = name;
         this.course = course;
     }
@@ -29,6 +30,12 @@ public class Student {
         this.rollNo = rollNo;
     }
 
+    public String geteMail() {
+        return eMail;
+    }
+    public void seteMail(String eMail) {
+        this.eMail = eMail;
+    }
     public String getName() {
         return name;
     }
@@ -49,9 +56,8 @@ public class Student {
         System.out.println("Roll No : " + rollNo);
         System.out.println("Name : " + name);
         System.out.println("Course : " + course);
+        System.out.println("email : " + eMail);
         System.out.println("-------------------------");
     }
-
-
 }
 
